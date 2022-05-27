@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.page-title {
+  margin: 30px 0px;
+}
+.title {
+  font-size: 20px;
+}
+
+.detail {
+  font-weight: normal;
+  color: #abb5be;
+}
+
+.color-group {
+  margin: 30px 0px;
+}
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+hr {
+  color: #cfd4dabc;
+}

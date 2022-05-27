@@ -1,0 +1,55 @@
+.color-box {
+  display: inline-block;
+  height: 70px;
+  width: 150px;
+  border-radius: 6px;
+  margin: 15px 20px 10px 0px;
+}
+
+.bg-primary {
+  background-color: #7749f8;
+}
+
+.bg-primary-dark {
+  background-color: #5227cc;
+}
+
+.bg-primary-light {
+  background-color: #ebe5fc;
+}
+
+.bg-secondary {
+  background-color: #6c757d;
+}
+.bg-secondary-dark {
+  background-color: #54595e;
+}
+.bg-secondary-light {
+  background-color: #abb5be;
+}
+
+.bg-success {
+  background-color: #28a745;
+}
+.bg-danger {
+  background-color: #dc3545;
+}
+.bg-warning {
+  background-color: #ffc107;
+}
+.bg-info {
+  background-color: #17a2b8;
+}
+
+.bg-gray-600 {
+  background-color: #6c757d;
+}
+.bg-gray-700 {
+  background-color: #495057;
+}
+.bg-gray-800 {
+  background-color: #343a40;
+}
+.bg-gray-900 {
+  background-color: #212529;
+}
