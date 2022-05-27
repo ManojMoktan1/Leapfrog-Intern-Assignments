@@ -1,0 +1,43 @@
+table {
+  width: 50%;
+  margin-top: 30px;
+}
+
+th {
+  text-align: left;
+  height: 60px;
+}
+
+td {
+  height: 60px;
+  align-items: center;
+}
+
+.btn-data {
+  margin: 20px 0px;
+  padding: 40px 0px;
+}
+
+.btn {
+  text-decoration: none;
+  border: 2px solid;
+  padding: 8px 8px;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  background-color: rgb(152, 26, 211);
+  color: white;
+}
+.btn-primary-outline {
+  border-color: rgb(152, 26, 211);
+  color: rgb(152, 26, 211);
+}
+.btn-secondary {
+  background-color: grey;
+  color: white;
+}
+.btn-secondary-outline {
+  border-color: grey;
+  color: grey;
+}

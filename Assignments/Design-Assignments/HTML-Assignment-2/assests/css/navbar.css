@@ -19,8 +19,9 @@ nav ul li {
 }
 
 .searchbar {
-  height: 30px;
+  height: 38px;
   width: 160px;
+  border-radius: 4px;
 }
 
 .search-btn {

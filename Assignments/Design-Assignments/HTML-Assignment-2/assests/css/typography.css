@@ -1,0 +1,29 @@
+.section {
+  width: 50%;
+  display: inline-block;
+}
+.tabs ul li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.paragraph {
+  padding: 20px 0px;
+}
+
+.tabs-info {
+  width: 50%;
+}
+
+.tab-link {
+  text-decoration: none;
+  color: purple;
+}
+
+.tab {
+  border: 2px solid #abb5be;
+  padding: 5px 10px;
+}
+.tab:first-child {
+  border-bottom: none;
+}

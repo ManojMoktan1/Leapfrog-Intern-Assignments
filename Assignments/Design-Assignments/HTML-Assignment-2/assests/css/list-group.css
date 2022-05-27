@@ -1,0 +1,28 @@
+.right-contents {
+  width: 30%;
+}
+
+.table-title {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline;
+  text-align: left;
+  margin-right: 15px;
+}
+
+.faded {
+  color: grey;
+}
+
+.aside-menu {
+  padding: 20px 0px;
+}
+
+p {
+  font-size: 16px;
+  padding: 6px;
+}
+
+small {
+  font-weight: bold;
+}
