@@ -65,3 +65,11 @@ h3 {
 hr {
   color: #cfd4dabc;
 }
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
