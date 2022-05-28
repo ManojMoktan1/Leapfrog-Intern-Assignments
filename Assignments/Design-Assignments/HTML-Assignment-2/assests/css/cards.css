@@ -14,7 +14,7 @@
 
 .card:hover {
   box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
-  width: 23%;
+  transform: translate(0, -50px);
 }
 
 .cards {

@@ -38,3 +38,7 @@
 .tab:first-child a {
   color: black;
 }
+
+.lead-text > .paragraph {
+  font-size: 20px;
+}
