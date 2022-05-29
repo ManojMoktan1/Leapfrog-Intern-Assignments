@@ -24,19 +24,20 @@
 
 .tab-link {
   text-decoration: none;
-  color: purple;
+  color: #7749f8;
 }
 
 .tab {
   border: 2px solid #abb5be;
   padding: 5px 10px;
+  border-radius: 4px;
 }
 .tab:first-child {
   border-bottom: none;
 }
 
 .tab:first-child a {
-  color: black;
+  color: #54595e;
 }
 
 .lead-text > .paragraph {

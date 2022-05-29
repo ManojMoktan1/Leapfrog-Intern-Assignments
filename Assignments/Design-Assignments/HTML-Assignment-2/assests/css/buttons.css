@@ -26,18 +26,29 @@ td {
 }
 
 .btn-primary {
-  background-color: rgb(152, 26, 211);
+  background-color: #7749f8;
   color: white;
 }
+
+.btn-primary-dark {
+  background-color: #5227cc;
+  color: white;
+}
+
 .btn-primary-outline {
-  border-color: rgb(152, 26, 211);
-  color: rgb(152, 26, 211);
+  border-color: #7749f8;
+  color: #7749f8;
 }
 .btn-secondary {
-  background-color: grey;
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary-dark {
+  background-color: #54595e;
   color: white;
 }
 .btn-secondary-outline {
-  border-color: grey;
-  color: grey;
+  border-color: #6c757d;
+  color: #6c757d;
 }

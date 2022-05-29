@@ -23,7 +23,7 @@ p {
   padding: 6px;
 }
 
-small {
+.small-text {
   font-weight: bold;
   font-size: 12px;
   margin-left: 10px;

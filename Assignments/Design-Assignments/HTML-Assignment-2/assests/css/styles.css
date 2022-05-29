@@ -25,6 +25,22 @@ h3 {
   font-weight: bold;
 }
 
+hr {
+  color: #cfd4dabc;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+small {
+  font-size: 12px;
+}
+
 .container {
   max-width: 80%;
   margin: auto;
@@ -60,16 +76,4 @@ h3 {
   content: "";
   clear: both;
   display: table;
-}
-
-hr {
-  color: #cfd4dabc;
-}
-
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
 }
