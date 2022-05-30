@@ -1,0 +1,18 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
