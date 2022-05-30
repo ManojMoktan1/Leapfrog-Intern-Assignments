@@ -84,6 +84,11 @@ nav ul li {
   font-weight: bold;
 }
 
+.contact-btn-div {
+  margin-top: 20px;
+  display: inline-block;
+}
+
 .contact-btn {
   padding: 16px 30px;
   background-color: #4e42d9;
@@ -155,6 +160,10 @@ nav ul li {
 .info-heading {
   letter-spacing: 0.01em;
   text-align: center;
+}
+
+.section-3 {
+  margin-top: 72px;
 }
 
 .work-img {
