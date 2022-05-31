@@ -4,7 +4,7 @@ const closeMenu = document.querySelector(".close-menu");
 const navShow = document.querySelector(".nav-show");
 
 hamburger.addEventListener("click", (event) => {
-  console.log("hi");
+  // console.log("hi");
   if (responsive.style.display === "none") {
     responsive.style.display = "block";
     closeMenu.style.display = "block";
@@ -15,7 +15,7 @@ hamburger.addEventListener("click", (event) => {
 });
 
 closeMenu.addEventListener("click", (event) => {
-  console.log("hi");
+  // console.log("hi");
   if (responsive.style.display === "block") {
     responsive.style.display = "none";
     closeMenu.style.display = "none";

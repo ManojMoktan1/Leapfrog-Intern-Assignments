@@ -304,3 +304,7 @@ nav ul li {
 .footer-customers {
   margin: 0px 20px;
 }
+
+.container {
+  overflow: hidden;
+}
