@@ -65,6 +65,7 @@ nav ul li {
   text-decoration: none;
   color: grey;
   margin: 0px 40px;
+  display: inline-block;
 }
 
 .nav-link:hover {
@@ -301,5 +302,5 @@ nav ul li {
 }
 
 .footer-customers {
-  margin: 0px 30px;
+  margin: 0px 20px;
 }
