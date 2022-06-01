@@ -2,6 +2,8 @@ const hamburger = document.querySelector(".hamburger");
 const responsive = document.querySelector(".navigation");
 const closeMenu = document.querySelector(".close-menu");
 const navShow = document.querySelector(".nav-show");
+let maxWidth = window.matchMedia("(max-width:1200px)");
+const navbar = document.querySelector(".nav-bar");
 
 hamburger.addEventListener("click", (event) => {
   // console.log("hi");

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assests/css/reset.css" />
+    <link rel="stylesheet" href="assests/css/styles.css" />
+    <link rel="stylesheet" href="assests/css/layout.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@200;300;500&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Forms</title>
+  </head>
+  <body>
+    <nav>
+        <div class="container">
+          <div class="float-left">
+            <div class="float-left">
+              <h2 class="banner a-left">UI Kit</h2>
+            </div>
+            <ul class="navbar float-left">
+                <li><a class="nav-link" href="index.html"> Color </a></li>
+                <li><a class="nav-link" href="Typography.html"> Typography </a></li>
+                <li><a class="nav-link" href="buttons.html"> Buttons</a></li>
+                <li><a class="nav-link" href="forms.html"> Forms</a></li>
+                <li><a class="nav-link" href="list-group.html"> List Group </a></li>
+                <li><a class="nav-link" href="tables.html"> Table </a></li>
+                <li><a class="nav-link" href="cards.html"> Card </a></li>
+            </ul>
+          </div>
+          <div class="float-right">
+            <input
+              class="searchbar"
+              type="text"
+              name=""
+              id=""
+              placeholder="Search"
+            />
+            <button class="search-btn" type="submit">Search</button>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </nav>
+
+      <!-- Took around 50 mins to complete the forms section -->
+      
+    <div class="container">
+      <h1 class="page-title">Forms</h1>
+      <hr />
+      
+      <div class="sidebar float-left">
+          <h2 class="heading">Components</h2>
+        <div class="aside-bar">
+          <div class="aside-menu" >Color</div>
+          <div class="aside-menu" >Typography</div>
+          <div class="aside-menu" >Button</div>
+          <div class="aside-menu" >Forms</div>
+          <div class="aside-menu" >List Group</div>
+          <div class="aside-menu" >Table</div>
+        </div>
+    </div>
+
+      <div class="fill-form float-left">
+        <label class="label" for="input">Input</label>
+        <input class="form-control" type="text" name="" id="input" placeholder="Placeholder" />
+
+        <label class="label" for="select-menu">Select Menu</label>
+        <select class="form-control select-menu" name="Select" id="select-menu">
+          <option value="select">Select Menu</option>
+        </select>
+        <label class="label" for="textarea">Text Area</label>
+        <textarea class="form-control textarea" name="" id="" cols="20" rows="10" placeholder="Write your message here."></textarea>
+
+        <div class="checkers">
+        <h3 class="heading">Checkboxes</h3>
+        <table class="table-content">
+            <tr>
+                <th class="table-row">Checkboxes</th>
+                <th>Checkboxes inline</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="" name="" value="">
+                    <label for=""> Default checkbox</label></td>
+                <td><input type="checkbox" id="" name="" value="">
+                    <label for=""> Default checkbox</label></td>
+                <td><input type="checkbox" id="" name="" value="" checked>
+                    <label for=""> Default checkbox</label></td>
+                <td><input type="checkbox" id="" name="" value="" disabled>
+                    <label for=""> Default (disabled)</label></td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="" name="" value="" checked>
+                    <label for=""> Default checkbox</label></td>
+                    <td></td>
+                    <td></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="" name="" value="" disabled>
+                    <label for=""> Default checkbox</label></td>
+                    <td></td>
+                    <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="checkers">
+        <h3 class="heading">Radios</h3>
+    <table class="table-content">
+        <tr>
+            <th>Radios</th>
+            <th>Radios inline</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="radio" id="" name="" value="">
+                <label for=""> Default radio</label></td>
+            <td><input type="radio" id="" name="" value="">
+                <label for=""> Default radio</label></td></td>
+            <td><input type="radio" id="" name="" value="" checked>
+                <label for=""> Selected radio</label></td></td>
+            <td><input type="radio" id="" name="" value="" disabled>
+                <label for=""> Disabled radio</label></td></td>
+
+        </tr>
+        <tr>
+            <td><input type="radio" id="" name="" value="" checked>
+                <label for=""> Selected radio</label></td>
+                <td></td>
+                <td></td>
+                <td></td>
+        </tr>
+        <tr>
+            <td><input type="radio" id="" name="" value="" disabled>
+                <label for=""> Default radio</label></td>
+                <td></td>
+                <td></td>
+                <td></td>
+        </tr>
+    </table>
+</div>
+<div class="checkers">
+    <h3 class="heading">Validation</h3>
+    <label class="label " for="input">Input Success</label>
+    <input class="form-control success" type="text" name="" id="input" />
+
+    <label class="label " for="input">Input Error</label>
+    <input class="form-control error" type="text" name="" id="input" />
+
+</div>
+    </div>
+
+    </div>
+  </body>
+</html>
