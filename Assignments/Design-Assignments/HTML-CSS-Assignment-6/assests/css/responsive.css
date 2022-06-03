@@ -1,0 +1,587 @@
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .nav-hamburger {
+    width: 100%;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .hamburger-div {
+    display: block;
+    margin: 25px 20px;
+    float: right;
+  }
+
+  .hamburger {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+
+  .banner {
+    float: none;
+    display: inline-block;
+    font-size: 24px;
+    padding: 0;
+    margin: 20px 20px;
+  }
+
+  .responsive {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+  }
+
+  .nav-li {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
+    float: none;
+  }
+
+  .float-none {
+    float: none;
+  }
+
+  .close-menu {
+    margin-right: 15px;
+    /* display: none; */
+    margin-top: 40px;
+  }
+
+  .close-1 {
+    width: 30px;
+    height: 2px;
+    background-color: #5f5f5f;
+    border-radius: 4px;
+    transform: rotate(45deg);
+  }
+
+  .close-2 {
+    width: 30px;
+    height: 2px;
+    background-color: #5f5f5f;
+    border-radius: 4px;
+    transform: rotate(135deg);
+  }
+
+  .div--img {
+    width: 100%;
+    position: static;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .ratings {
+    display: none;
+  }
+
+  .comments {
+    display: none;
+  }
+
+  .polcadot {
+    display: none;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .title-info {
+    width: 100%;
+  }
+
+  .logos {
+    padding: 0;
+    text-align: center;
+  }
+  .logo-div {
+    width: 50%;
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  .logos__img {
+    margin: 30px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .services {
+    margin: 40px 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .service-img-div {
+    width: 30%;
+    display: inline-block;
+  }
+
+  .service__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .services__title {
+    font-size: 24px;
+  }
+
+  .services__info {
+    font-size: 20px;
+  }
+
+  .services__description {
+    padding: 20px 0;
+    margin: 10px 0;
+  }
+
+  .polcadot-2 {
+    display: none;
+  }
+
+  .polcadot-3 {
+    display: none;
+  }
+
+  .food-div {
+    width: 100%;
+    padding: 0;
+  }
+
+  .health-information {
+    margin: 0;
+    width: 100%;
+  }
+
+  .img-food {
+    width: 100%;
+    padding: 0;
+  }
+
+  .info-title {
+    font-size: 16px;
+  }
+
+  .food-heading {
+    font-size: 50px;
+  }
+
+  .health-point {
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  .tick-img {
+    width: 4%;
+    padding: 20px 0px;
+  }
+
+  .health-information2 {
+    margin: 0;
+    width: 100%;
+  }
+  .img-food-2 {
+    width: 100%;
+    padding: 0;
+  }
+  .statistics {
+    padding: 15px;
+
+    display: inline-block;
+  }
+
+  .card {
+    height: 350;
+    width: 350;
+    max-width: 100%;
+  }
+
+  .card:nth-child(even) {
+    display: none;
+  }
+
+  .card-heading {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 10px 0px 0px 30px;
+    margin-top: 10px;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .food-list {
+    margin-bottom: 30px;
+  }
+  .image-banner {
+    margin: 30px 0 30px 0;
+    width: 100%;
+  }
+
+  .banner-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-info {
+    position: static;
+    color: #1d1d1f;
+    font-size: 42px;
+    width: 100%;
+    line-height: 73px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .banner-button {
+    position: static;
+  }
+
+  .footer-left {
+    width: 100%;
+    margin: 0;
+  }
+
+  .social-icon {
+    margin-bottom: 30px;
+  }
+
+  .about-us {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .subscribe {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .footer-right {
+    margin: 30px 0;
+  }
+
+  .footer-end {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .nav-hamburger {
+    width: 100%;
+  }
+
+  .hamburger-div {
+    display: block;
+    margin: 25px 20px;
+    float: right;
+  }
+
+  .hamburger {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+  .banner {
+    float: none;
+    display: inline-block;
+    font-size: 24px;
+    padding: 0;
+    margin: 20px 20px;
+  }
+
+  .responsive {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+  }
+
+  .nav-li {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
+    float: none;
+  }
+
+  .close-menu {
+    margin-right: 15px;
+    margin-top: 40px;
+  }
+
+  .close-1 {
+    width: 30px;
+    height: 2px;
+    background-color: #5f5f5f;
+    border-radius: 4px;
+    transform: rotate(45deg);
+  }
+
+  .close-2 {
+    width: 30px;
+    height: 2px;
+    background-color: #5f5f5f;
+    border-radius: 4px;
+    transform: rotate(135deg);
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .div--img {
+    width: 100%;
+    position: static;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .ratings {
+    display: none;
+  }
+
+  .comments {
+    display: none;
+  }
+
+  .polcadot {
+    display: none;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .title-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logos {
+    padding: 0;
+    text-align: center;
+  }
+  .logo-div {
+    width: 20%;
+    display: inline-block;
+    margin: 20px 20px;
+  }
+
+  .logos__img {
+    margin: 30px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .services-contents {
+    text-align: center;
+  }
+
+  .services {
+    margin: 40px 0px;
+    display: inline-block;
+  }
+
+  .service-img-div {
+    width: 100%;
+  }
+
+  .service__img {
+    width: 50%;
+    height: auto;
+  }
+
+  .services__title {
+    font-size: 16px;
+  }
+
+  .services__info {
+    font-size: 16px;
+  }
+
+  .services__description {
+    padding: 10px;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .polcadot-2 {
+    display: none;
+  }
+
+  .polcadot-3 {
+    display: none;
+  }
+
+  .food-div {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* .float-none {
+    float: none;
+  } */
+  .health-information {
+    margin: 0;
+    width: 100%;
+  }
+
+  .img-food {
+    width: 100%;
+    padding: 0;
+  }
+
+  .info-title {
+    font-size: 16px;
+  }
+
+  .food-heading {
+    font-size: 50px;
+  }
+
+  .health-section {
+    text-align: center;
+  }
+
+  .health-point {
+    font-size: 14px;
+    padding: 12px 0;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    /* width: 100%; */
+  }
+
+  .tick-img {
+    width: 3%;
+    padding: 0;
+    float: none;
+    text-align: center;
+  }
+
+  .health-information2 {
+    margin: 0;
+    width: 100%;
+  }
+  .img-food-2 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .statistics {
+    padding: 15px;
+    float: none;
+    display: inline-block;
+  }
+
+  .card {
+    height: 350;
+    width: 350;
+    max-width: calc(100% / 2);
+    float: left;
+  }
+
+  .card:nth-child(even) {
+    display: none;
+  }
+
+  .card-heading {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 10px 0px 0px 30px;
+    margin-top: 10px;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .food-list {
+    margin-bottom: 30px;
+  }
+  .image-banner {
+    margin: 30px 0 30px 0;
+    width: 100%;
+  }
+
+  .banner-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-info {
+    position: static;
+    color: #1d1d1f;
+    font-size: 42px;
+    width: 100%;
+    line-height: 73px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .banner-button {
+    position: static;
+    text-align: center;
+  }
+
+  .footer-left {
+    text-align: center;
+    margin: 0;
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+
+  .social-icon {
+    margin-bottom: 30px;
+  }
+
+  .about-us {
+    float: left;
+    width: 30%;
+    text-align: center;
+  }
+
+  .subscribe {
+    margin: 0;
+    width: 100%;
+    margin: 30px 0;
+    float: left;
+    text-align: center;
+  }
+
+  .footer-right {
+    margin: 0;
+    float: left;
+  }
+
+  .footer-end {
+    padding: 0;
+  }
+}
