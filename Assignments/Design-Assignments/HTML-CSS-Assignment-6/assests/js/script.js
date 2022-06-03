@@ -6,7 +6,6 @@ let maxWidth = window.matchMedia("(max-width:1200px)");
 const navbar = document.querySelector(".nav-bar");
 
 hamburger.addEventListener("click", (event) => {
-  // console.log("hi");
   if (responsive.style.display === "none") {
     responsive.style.display = "block";
     closeMenu.style.display = "block";
@@ -17,7 +16,6 @@ hamburger.addEventListener("click", (event) => {
 });
 
 closeMenu.addEventListener("click", (event) => {
-  // console.log("hi");
   if (responsive.style.display === "block") {
     responsive.style.display = "none";
     closeMenu.style.display = "none";

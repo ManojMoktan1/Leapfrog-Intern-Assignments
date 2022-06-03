@@ -56,7 +56,6 @@
 
   .close-menu {
     margin-right: 15px;
-    /* display: none; */
     margin-top: 40px;
   }
 
@@ -443,9 +442,6 @@
     padding: 0;
   }
 
-  /* .float-none {
-    float: none;
-  } */
   .health-information {
     margin: 0;
     width: 100%;
@@ -474,7 +470,6 @@
     display: inline-block;
     text-align: center;
     float: none;
-    /* width: 100%; */
   }
 
   .tick-img {
