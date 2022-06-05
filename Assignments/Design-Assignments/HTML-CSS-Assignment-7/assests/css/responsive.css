@@ -1,0 +1,402 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .close-menu {
+    margin-right: 15px;
+    margin-top: 45px;
+  }
+
+  .display-close {
+    display: none;
+  }
+
+  .close-1 {
+    width: 30px;
+    height: 2px;
+    background-color: #5f5f5f;
+    border-radius: 4px;
+    transform: rotate(45deg);
+  }
+
+  .close-2 {
+    width: 30px;
+    height: 2px;
+    background-color: #5f5f5f;
+    border-radius: 4px;
+    transform: rotate(135deg);
+  }
+
+  .logo {
+    margin: 10px 0;
+  }
+
+  .navigation-bar {
+    display: block;
+  }
+
+  .hamburger {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+
+  .hamburger-div {
+    margin: 40px 20px;
+  }
+
+  .hamburger-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .responsive-nav__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav__items {
+    margin: 50px 0;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-info {
+    width: 100%;
+    order: 1;
+    text-align: center;
+  }
+
+  .hero-div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero__title {
+    width: 100%;
+  }
+
+  .hero__para {
+    width: 100%;
+  }
+
+  .hero-info {
+    width: 100%;
+  }
+
+  .buttons-div {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .play-div {
+    margin-top: 30px;
+    align-self: center;
+  }
+  .play-img {
+    display: inline-block;
+    width: auto;
+  }
+
+  .video-description {
+    display: none;
+  }
+
+  .card-small {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  }
+
+  .card-small-2 {
+    position: absolute;
+    top: 60%;
+    left: -5%;
+  }
+
+  .card-small-3 {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+  }
+
+  .stats-img-div {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+  }
+
+  .round-angle {
+    display: none;
+  }
+  .background-light {
+    margin-bottom: 50px;
+  }
+
+  .features__info {
+    padding: 20px 0;
+  }
+  .features__cards {
+    flex-wrap: wrap;
+  }
+
+  .features__card {
+    margin-bottom: 70px;
+  }
+
+  .features__icon {
+    top: -25%;
+    left: 35%;
+  }
+  .about__img-container {
+    flex-direction: column;
+  }
+  .about__img-div {
+    margin: 10px 0;
+  }
+
+  .about__img {
+    width: 90%;
+  }
+
+  .about__info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about__information {
+    width: 100%;
+    text-align: center;
+  }
+  .teaching-video {
+    width: 90%;
+  }
+
+  .blue-rec {
+    display: none;
+  }
+
+  .orange-rec {
+    display: none;
+  }
+
+  .play-button-div {
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+  .play-btn-img {
+    width: 100%;
+  }
+  .about__more-link {
+    margin-bottom: 20px;
+  }
+
+  .user-interface {
+    flex-direction: column;
+  }
+
+  .user-call-div {
+    order: 1;
+  }
+
+  .user-points {
+    margin-top: 0;
+  }
+
+  .call-img {
+    width: 90%;
+  }
+
+  .title__heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .points-info {
+    text-align: center;
+  }
+
+  .green-cirlce {
+    display: none;
+  }
+
+  .blue-small-cirlce {
+    display: none;
+  }
+
+  .pink-small-cirlce {
+    display: none;
+  }
+
+  .blue-big-circle {
+    display: none;
+  }
+  .tools-teachers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tools-teachers__info {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .tools-title {
+    width: 100%;
+  }
+
+  .learn-tools-icon {
+    width: 90%;
+  }
+
+  .trave-img {
+    order: 1;
+  }
+
+  .grade-book {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .grade-book-icon {
+    width: 90%;
+  }
+
+  .one-on-one {
+    width: 100%;
+  }
+
+  .integration__section {
+    order: 1;
+  }
+
+  .wrap-integrations {
+    flex-direction: column;
+  }
+
+  .integrations-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .view-more {
+    text-align: center;
+  }
+
+  .integration__section {
+    justify-content: space-around;
+    margin: 0;
+  }
+  .wrap-testimonials {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .testimonial-img {
+    width: 60%;
+  }
+
+  .cards-testimonial {
+    width: 100%;
+  }
+
+  .next-slide {
+    display: none;
+  }
+
+  .note-container {
+    position: static;
+  }
+
+  .latest-news {
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-news {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .press-realesase-wrapper {
+    width: 100%;
+  }
+
+  .news-btn {
+    position: static;
+  }
+
+  .news-btn1 {
+    position: static;
+  }
+
+  .news-btn2 {
+    position: static;
+  }
+
+  .reponsive-news {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .girl {
+    width: 100%;
+  }
+
+  .card-small {
+    position: absolute;
+    top: 30%;
+    left: -30%;
+  }
+
+  .card-small-2 {
+    top: 90%;
+    left: -30%;
+  }
+
+  .card-small-3 {
+    display: none;
+  }
+  .features__icon {
+    top: -15%;
+    left: 20%;
+  }
+  .play-div {
+    margin-right: 100px;
+  }
+
+  .input {
+    margin-bottom: 20px;
+  }
+
+  .about__wrap {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+  }
+
+  .about__heading {
+    font-size: 16px;
+  }
+
+  .btn-blue,
+  .btn-outline {
+    font-size: 10px;
+  }
+  .footer__img {
+    margin-top: 20px;
+  }
+}
