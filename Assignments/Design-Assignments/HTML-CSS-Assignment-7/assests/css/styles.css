@@ -964,6 +964,11 @@ a {
   border: none;
 }
 
+.subscibe-btn:hover {
+  background: linear-gradient(105.5deg, #15198b 15.57%, #26298b 70.5%);
+  cursor: pointer;
+}
+
 .footer-link {
   display: inline-block;
   font-weight: 400;
