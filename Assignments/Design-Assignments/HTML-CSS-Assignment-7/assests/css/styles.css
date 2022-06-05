@@ -160,9 +160,9 @@ a {
   background-color: #fff2e1;
   position: relative;
   margin-bottom: 100px;
-  /* padding-bottom: 100px;
-  border-bottom-right-radius: 80%;
-  border-bottom-left-radius: 80%; */
+
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
 }
 
 .buttons-div {
